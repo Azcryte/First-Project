@@ -1,0 +1,16 @@
+﻿Build started 1/31/2015 2:11:11 PM.
+     1>Project "C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDL2\include /IC:\SDL2_image\include /IC:\SDL2_mixer\include /IC:\glew\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\Release\Platform.exe" /NOLOGO /LIBPATH:C:\SDL2\lib\x86 /LIBPATH:C:\SDL2_image\lib\x86 /LIBPATH:C:\SDL2_mixer\lib\x86 /LIBPATH:C:\glew\lib\Release\Win32 SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib glew32.lib OpenGL32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\Release\Platform.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\Release\Platform.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+     1>c:\users\azcryte\work\2014fall\gameprogramming\cs3113\assignments\project\nyucodebase\game.h(3093): warning C4715: 'Game::checkForValidSpawnLocation' : not all control paths return a value
+         Finished generating code
+         NYUCodebase.vcxproj -> C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\Release\Platform.exe
+     1>Done Building Project "C:\Users\Azcryte\Work\2014Fall\GameProgramming\CS3113\Assignments\Project\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.98
